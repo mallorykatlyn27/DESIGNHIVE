@@ -1,0 +1,83 @@
+#services{
+    padding: 80px 15px;
+}
+
+#services .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#services .title h1{
+    position: relative;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #c7522a;
+    color: #005485;
+    z-index: 1;
+}
+
+#services .title .circle{
+    background: #bd4c4b;
+    opacity: .7;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:23px;
+}
+
+#services .services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    background: rgba(255, 255, 255, 0);
+    transition:all .4s ease-in-out;
+    padding: 50px;
+    cursor: pointer;
+}
+
+
+#services .services-container:hover{
+    background:antiquewhite;
+    -webkit-box-shadow: 0px 0px 43px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 43px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 43px 0px rgba(0,0,0,0.8);
+}
+
+#services .services-container .fas{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#services .services-container h5{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: candara;
+    margin-bottom: 2rem;
+}
+
+#services .services-container .box-blue{
+    border-bottom: 2px solid  #00B1B0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#services .services-container .box-yellow{
+    border-bottom: 2px solid #FEC84D;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#services .services-container .box-pink{
+    border-bottom: 2px solid #E42256;
+    font-family:sans-serif;
+    font-size: 15px;
+}

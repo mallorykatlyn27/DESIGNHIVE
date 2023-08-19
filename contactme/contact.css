@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4edd7;
+  }
+
+  .container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;  
+}
+
+header .logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: fantasy;
+    padding: 20px 20px;
+    color: white;
+    background-color: #092c4c;
+    display: flex;
+}
+
+header .logo .name{
+    background: #092c4c;
+    color: #f4edd7;
+    text-decoration: none;
+}
+
+
+header .header-menu{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-menu a{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: monospace;
+    color:#004343;
+    transition: all .5s ease-in-out;
+}
+
+header .header-menu a:hover{
+    font-weight: 400;
+    color:#bd4c4b;
+}
+
+header .menu-btn{
+    font-weight: 400;
+    color: #092c4c;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header .menu-btn:hover{
+    color: #bd4c4b;
+}
+
+#contact-me .title{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#contact-me .title h1{
+  position: relative;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: fantasy;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #092c4c;
+  color: #bd4c4b;
+  z-index: 1;
+}
+
+#contact-me .title .square{
+  background: #74a892;
+  opacity: .7;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top:23px;
+}
+
+
+#contact-me{
+    background-color: #f4edd7;
+    padding: 20px;
+    border-left: 1px solid #092c4c;
+    width: 300px;
+  }
+
+  .contact-container label, .contact-container input, .contact-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact-container label {
+    font-family: fantasy;
+    color: #004343;
+  }
+
+  .contact-container input, .contact-container textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+
+  .contact-container button {
+    background-color: #005485;
+    color: #b8cdab;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+
+  .contact-container button:hover {
+    background-color: #b8cdab;
+    color: #005485;
+  }

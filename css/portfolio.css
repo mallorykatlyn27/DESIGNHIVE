@@ -1,0 +1,120 @@
+#portfolio{
+    padding: 80px 15px;
+}
+
+#portfolio .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#portfolio .title h1{
+    position: relative;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 8px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #f0daa5;
+    color: #bd4c4b;
+    z-index: 1;
+}
+
+#portfolio .title .square{
+    background: #b8cdab;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    top:23px;
+}
+
+#portfolio .portfolio-container{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.portfolio-head{
+    font-family: fantasy;
+    font-size: 1rem;
+    text-align: center;
+    color: #092c4c;
+    font-weight: 100;
+    text-decoration: underline dotted;
+    text-decoration-color: #c7522a;
+}
+
+.box-item-0{
+    font-family: monospace;
+    color: #943b3a;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.box-item-0:hover{
+    color: #004343;
+    font-size: 1.2rem;
+}
+
+.box-item-1{
+    font-family: monospace;
+    color: #943b3a;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.box-item-1.box-item-1:hover{
+    color: #004343;
+    font-size: 1.2rem;
+}
+
+.box-item-2{
+    font-family: monospace;
+    color: #943b3a;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.box-item-2:hover{
+    color: #004343;
+    font-size: 1.2rem;
+}
+
+.box-item-3{
+    font-family: monospace;
+    color: #943b3a;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.box-item-3:hover{
+    color: #004343;
+    font-size: 1.2rem;
+}
+
+.box-item-4{
+    font-family: monospace;
+    color: #943b3a;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.box-item-4:hover{
+    color: #004343;
+    font-size: 1.2rem;
+}
+
